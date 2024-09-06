@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-page</title>
+</head>
+<style>
+    body {
+        background-color: rgb(228, 228, 228);
+    }
+
+    .container {
+        height: 463px;
+        width: 50%;
+        top: 12%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, 0%);
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .formbox {
+        display: inline-block;
+        /* height: 100%; */
+        width: 50%;
+        /* padding: 20px; */
+        position: relative;
+        bottom: 27px;
+        text-align: center;
+    }
+
+    .image img {
+        width: 100%;
+        height: 435px;
+        object-fit: cover;
+    }
+
+    .image {
+        width: 45%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .family {
+        position: relative;
+        height: fit-content;
+    }
+
+    .formbox h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        margin-right: 100px;
+    }
+
+    input {
+        width: 70%;
+        padding: 8px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        border: 1px solid;
+    }
+
+    button.btn1 {
+        width: 70%;
+        color: white;
+        background: blue;
+        padding: 5px;
+        border-radius: 29px;
+        border: none;
+    }
+
+    .pass {
+        margin-right: 70px;
+    }
+
+    .word {
+        margin-right: 130px;
+    }
+
+    button.btn2 {
+        width: 70%;
+        color: white;
+        background: rgb(224, 8, 18);
+        padding: 5px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    button.btn3 {
+        width: 70%;
+        color: white;
+        background: rgba(0, 0, 49, 0.897);
+        padding: 5px;
+        border-radius: 30px;
+        border: none;
+    }
+
+    .signup-link {
+        text-align: center;
+    }
+
+    hr {
+        width: 200px;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="formbox">
+            <h2>LOGIN</h2>
+            <form id="Login">
+                <div class="form-group">
+                    <label for="Email ">Email address:</label>
+                    <input type="email" id="Email address" name="Email address" placeholder="Email address" required>
+                </div>
+                <div class="form-group">
+                    <label class="word" for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="from group">
+                    <label class="pass" for="password">Confirm password:</label>
+                    <input type="password" placeholder="Confirm password" required>
+                </div>
+                <br>
+                <div class="button1">
+                    <button class="btn1" type="submit">Sign In</button>
+                    <hr>
+                </div>
+                <div class="button-2">
+                    <button class="btn2" type="submit">SIGN IN WITH GOOGLE</button>
+                </div>
+                <br>
+                <div class="button 3">
+                    <button class="btn3" type="submit">SIGN IN WITH FACEBOOK</button>
+                    <p class="signup-link">Do you have an account? <a href="index.html">Login</a></p>
+                </div>
+
+            </form>
+            <p id="message"></p>
+        </div>
+        <div class="image">
+
+            <img src="https://img.freepik.com/premium-vector/man-sitting-floor-focused-his-laptop-screen-engaged-online-education-work-man-studying-with-laptop-online-education-simple-minimalist-flat-vector-illustration_538213-52348.jpg?w=740"
+                alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
